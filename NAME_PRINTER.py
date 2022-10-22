@@ -3,6 +3,11 @@ print("NICKNAME PRINTER")
 input("PRESS ANY KEY TO CONTINUE!")
 print("GOOD DAY! MY NAME IS CHRISTIAN KEVIN P. DE VEGA AND MY NICKNAME IS")
 
+
+#the printed nickname is sliced diagonaly into 5 section
+#each line of code (from line 13 to 17) corresponds to each of the sliced 5 sections
+
+
 for y_axis in range(5):
  for x_axis in range(14):
         if (y_axis==0 and x_axis!=1 and x_axis!=2 and x_axis!=4 and x_axis!=8 and x_axis!=13)\
